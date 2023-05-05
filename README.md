@@ -14,7 +14,16 @@ A command-line utility to help you interact with your Google Drive and Google ac
 ## Prerequisites
 
 - Python 3.6 or higher
-- Install required packages by running: `pip install -r requirements.txt`
+
+### Conda
+
+- Installed conda: https://docs.conda.io/projects/conda/en/latest/user-guide/install/ 
+- Installed required packages in a new env by running: `conda create -n llm --file package-list.txt` (by default this will install only the packages required for the `list-searches` subcommand no google drive functionality)
+
+### Pip
+
+- Installed pip: https://pip.pypa.io/en/stable/installing/
+- Installed required packages. There is no package list for pip, so you will need to install the packages manually. The packages are listed in the `package-list.txt` file.
 
 ## Usage
 
