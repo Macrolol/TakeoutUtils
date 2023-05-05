@@ -4,7 +4,7 @@ I plan to have more here soon, but currently all that I have done is the:
 
 # Google Search Activity Utility
 
-A command-line utility to help you interact with your Google Drive and Google activity data.
+A command-line utility to help you interact with your Google Drive and [Google Takeout](https://takeout.google.com/) activity data.
 
 ## Features
 
@@ -38,7 +38,7 @@ python search_history_util.py [subcommand] --help for subcommand help
 Copy and extract a file from Google Drive to your local machine.
 
 ```bash
-python google_activity_utility.py unzip-from-drive <source> <target>
+python search_history_util.py unzip-from-drive <source> <target>
 ```
 
 - `<source>`: Source path in Google Drive.
