@@ -1,6 +1,6 @@
-# LLM
+# Takeout Utils
 
-I plan to have more here soon, but currently all that I have done is the:
+I plan to have more here eventually.
 
 # Google Search Activity Utility
 
